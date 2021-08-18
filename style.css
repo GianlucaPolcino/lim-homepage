@@ -1,0 +1,77 @@
+body{
+  background-image: url(img/background.jpg);
+  background-size: cover;
+}
+
+.container1{
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 25px;
+  }
+
+.container2{
+  width: 1000px;
+  margin: auto;
+  padding: 50px;
+}
+
+#logo{
+  width: 300px;
+  padding-top: 50x;
+  padding-left: 400px;
+}
+
+.logo-text{
+  color: lime;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+nav{
+  background-color: lime;
+}
+
+.nav-container{
+  height: 50px;
+  position: relative;
+}
+
+.nav-buttons{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.scooter{
+  font-family: 'Raleway', sans-serif;
+  color: white
+
+}
+
+.scooter-name{
+  display: inline-block;
+  font-size: 25px;
+}
+
+.charge-1{
+  background-color: orange;
+  width: 300px;
+  height: 20px;
+  border-radius: 5px;
+}
+
+.charge-2{
+  background-color: green;
+  width: 700px;
+  height: 20px;
+  border-radius: 5px;
+}
+
+.charge-3{
+  background-color: red;
+  width: 170px;
+  height: 20px;
+  border-radius: 5px;
+}
